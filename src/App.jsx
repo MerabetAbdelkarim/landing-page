@@ -6,7 +6,7 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <Home />
+      <Home  />
       <FooTer />
     </>
   )
