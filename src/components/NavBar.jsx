@@ -8,12 +8,12 @@ function NavBar() {
   useEffect(() => {
 window.addEventListener("scroll",()=>{
   if (window.scrollY > 100) {
-    headerRef.current.style.background = "#0c1524"
+    headerRef.current.style.background = "#0c1524ba"
     headerRef.current.style.padding = "20px 0"
 
   }else{
     headerRef.current.style.background = "transparent"
-    headerRef.current.style.padding = "60px 0"
+    headerRef.current.style.padding = "30px 0"
   }
 })
   }, [])
@@ -21,7 +21,7 @@ window.addEventListener("scroll",()=>{
     <>
       <header
         ref={headerRef}
-        className="fixed top-0 left-0 right-0  w-full  z-50 transition-all duration-300 ">
+        className="fixed top-0 left-0 right-0  w-full  z-50 transition-all duration-300 backdrop-blur-sm">
         <div className="container mx-auto flex  justify-between items-center gap-3">
           <a href="/">
             <img src={LogoNav} />

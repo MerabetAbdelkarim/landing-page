@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer{
+    .container{
+        @apply mx-auto
+    }
+    .element-center {
+        @apply grid justify-items-center
+    }
+    .btn {
+        @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200 rounded-[20px]
+    }
+}
+
 body{
     background-color: #181e2a;
     font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 50px;
 }
