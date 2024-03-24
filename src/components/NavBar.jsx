@@ -3,19 +3,19 @@ import LogoNav from "../assets/images/logo.svg"
 
 function NavBar() {
   const [links, setLinks] = useState(["Features", "Team", "SignIn"])
-  const headerRef  = useRef()
+  const headerRef = useRef()
 
   useEffect(() => {
-window.addEventListener("scroll",()=>{
-  if (window.scrollY > 100) {
-    headerRef.current.style.background = "#0c1524ba"
-    headerRef.current.style.padding = "20px 0"
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        headerRef.current.style.background = "#0c1524ba"
+        headerRef.current.style.padding = "20px 0"
 
-  }else{
-    headerRef.current.style.background = "transparent"
-    headerRef.current.style.padding = "30px 0"
-  }
-})
+      } else {
+        headerRef.current.style.background = "transparent"
+        headerRef.current.style.padding = "30px 0"
+      }
+    })
   }, [])
   return (
     <>
@@ -31,7 +31,7 @@ window.addEventListener("scroll",()=>{
             {
               links.map((links) => (
                 <ul key={links} className=" text-white opacity-80 hover:opacity-100  hover:underline   ease-in duration-200">
-                  <li>{links}</li>
+                  <li className="cursor-pointer">{links}</li>
                 </ul>
               ))
             }

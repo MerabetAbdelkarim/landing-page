@@ -17,8 +17,8 @@ function Landing() {
                 </p>
                 <a className="btn px-10 py-2 font-semibold" href="/">Get Started</a>
             </div>
-            <div>
-                <img src={Img1} alt="" />
+            <div >
+                <img src={Img1}   alt="" />
             </div>
         </section>
     )
