@@ -17,7 +17,7 @@ export default {
         lg: '992px',
         xl: '1200px',
         xxl: '1400px'
-      },
+      },  
       keyframes: {
         arrowR: {
           '0%,100%': { transform: 'translateX(0)' },

@@ -21,7 +21,7 @@ function NavBar() {
     <>
       <header
         ref={headerRef}
-        className="fixed top-0 left-0 right-0  w-full  z-50 transition-all duration-300 backdrop-blur-sm">
+        className="fixed top-0 left-0 right-0 pt-[30px] w-full  z-50 transition-all duration-300 backdrop-blur-sm">
         <div className="container mx-auto flex  justify-between items-center gap-3">
           <a href="/">
             <img src={LogoNav} />
@@ -35,7 +35,6 @@ function NavBar() {
                 </ul>
               ))
             }
-
           </nav>
         </div>
       </header>
