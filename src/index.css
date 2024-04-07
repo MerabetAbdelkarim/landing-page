@@ -12,7 +12,7 @@
     }
 
     .btn {
-        @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200 rounded-[20px]
+        @apply bg-blue-500  hover:bg-cyan-500 transition-all ease-in-out duration-300 rounded-[20px]
     }
 }
 
