@@ -6,7 +6,7 @@ import PhoneImg from "../assets/images/phone-call.png"
 function FooTer() {
     let date = new Date().getFullYear();
     return (
-        <footer className="bg-[#0b1523] pt-[200px] ">
+        <footer className=" bg-[#0b1523] pt-[200px] ">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
@@ -23,7 +23,7 @@ function FooTer() {
                             <h2 className="mb-6 text-sm font-semibold  uppercase text-white">Resources</h2>
                             <ul className="text-gray-400 font-medium">
                                 <li className="mb-4 flex gap-2">
-                                    <img src={PhoneImg} width={'24px'} alt="" />
+                                    <img src={PhoneImg} width={'24px'} height={'24px'} alt="" />
                                     <a href="/" >+1-543-123-4567</a>
                                 </li>
                                 <li className="flex gap-2">
