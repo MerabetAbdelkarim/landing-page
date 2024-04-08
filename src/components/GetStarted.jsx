@@ -2,7 +2,7 @@
 function GetStarted() {
     return (
         <section>
-            <div className="bg-[#202a3c] rounded-xl p-5 text-center mx-[100px]">
+            <div className="bg-[#202a3c] rounded-xl p-5 text-center mx-[100px] mt-[100px] -mb-[100px] relative z-20">
                 <h2 className="text-white font-bold text-[20px] mb-6">Get early access today</h2>
                 <p className="text-white text-[14px] mb-10">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
                 
